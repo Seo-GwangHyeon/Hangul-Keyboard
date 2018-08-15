@@ -19,12 +19,12 @@
 -->
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="25%p"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:keyWidth="10%p"
     android:keyHeight="@dimen/key_height"
     android:horizontalGap="0px"
     android:verticalGap="0px"
-
-    >
+    tools:targetApi="cupcake">
 
     <Row>
         <Key android:codes="12610,12611" android:keyLabel="ㅂ"
@@ -111,7 +111,7 @@
     </Row>
 
     <Row android:keyboardMode="@+id/mode_url" android:rowEdgeFlags="bottom">
-        <Key android:codes="-2" android:keyLabel="@string/label_alpha_key" 
+        <Key android:codes="-2" android:keyLabel="@string/label_alpha_key"
                 android:popupKeyboard="@xml/kbd_popup_template"
                 android:popupCharacters=""
                 android:keyWidth="20%p" android:keyEdgeFlags="left"/>
