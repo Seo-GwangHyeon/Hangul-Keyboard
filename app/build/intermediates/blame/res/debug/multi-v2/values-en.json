@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\values-en\\bools.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "1",
+                        "startOffsets": "688",
+                        "endColumns": "39",
+                        "endOffsets": "726"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                }
+            ]
+        }
+    ]
+}

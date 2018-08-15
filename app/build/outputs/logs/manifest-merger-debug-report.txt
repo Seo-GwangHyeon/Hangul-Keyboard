@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:1:1-24:12
+INJECTED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:1:1-24:12
+INJECTED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:1:1-24:12
+	package
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:2:9-52
+		INJECTED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:4:22-63
+uses-permission#android.permission.READ_USER_DICTIONARY
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_USER_DICTIONARY
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:8:5-23:19
+	android:label
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:8:18-58
+	android:debuggable
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:9:7-32
+service#com.feelnsolar.inputmethod.hangul.SoftKeyboard
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:10:9-16:19
+	android:permission
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:11:17-74
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:10:18-45
+intent-filter#action:name:android.view.InputMethod
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:12:13-14:29
+action#android.view.InputMethod
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:13:17-67
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:13:25-64
+meta-data#android.view.im
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:15:13-88
+	android:resource
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:15:55-85
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:15:24-54
+activity#com.feelnsolar.inputmethod.hangul.KeyboardSettings
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:18:9-22:20
+	android:label
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:18:51-95
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:18:19-50
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:19:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:20:25-66

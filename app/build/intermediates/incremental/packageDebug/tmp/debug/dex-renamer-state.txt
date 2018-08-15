@@ -1,0 +1,4 @@
+#Wed Aug 15 12:01:46 KST 2018
+base.0=C\:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

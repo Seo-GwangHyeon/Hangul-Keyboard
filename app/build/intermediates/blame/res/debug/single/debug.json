@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key_normal_off.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key_normal_off.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_pressed.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\highlight_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en_sym_keyboard_delete.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable-en\\sym_keyboard_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_delete.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\raw_main.dict.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\raw\\main.dict"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_return.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_return.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_prefs.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_numalt.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_numalt.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keyboard_suggest_strip_divider.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\keyboard_suggest_strip_divider.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_space.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_space.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_search.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keyboard_key_feedback_more_background.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\keyboard_key_feedback_more_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_popup_smileys.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\popup_smileys.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_azerty.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\azerty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_numstar.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_numstar.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_suggest_scroll_background.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\ic_suggest_scroll_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num2.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num2.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_phone_symbols.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_phone_symbols.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_suggest_strip_scroll_left_arrow.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\ic_suggest_strip_scroll_left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_hangul.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_hangul.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_symbols.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_symbols.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_popup_template.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_popup_template.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\layout_bubble_text.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\layout\\bubble_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_popup_domains.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\popup_domains.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num3.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num3.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_delete.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\layout_keyboard_key_preview.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\layout\\keyboard_key_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_return.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_return.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_qwerty.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_qwerty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_shift.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_shift.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_shift_locked.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_shift_locked.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dialog_keyboard.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\ic_dialog_keyboard.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keyboard_suggest_strip.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\keyboard_suggest_strip.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_popup_punctuation.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\popup_punctuation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_hangul_shift.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_hangul_shift.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_suggest_strip_scroll_right_arrow.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\ic_suggest_strip_scroll_right_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_alpha.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_shift_locked.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_shift_locked.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_done.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_done.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num6.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num6.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land_keyboard_suggest_strip_divider.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable-land\\keyboard_suggest_strip_divider.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_numpound.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_numpound.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_input.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\layout\\custom_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num4.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num4.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\raw_type3.ogg.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\raw\\type3.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_symbols_shift.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_symbols_shift.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key_pressed_on.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key_pressed_on.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_shift.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_shift.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_candidate_feedback_background.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\candidate_feedback_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml-de_kbd_qwerty.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml-de\\kbd_qwerty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_search.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key_pressed.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num0.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num0.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_selector_background_pressed.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\list_selector_background_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_method.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\method.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\layout_candidates.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\layout\\candidates.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num7.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num7.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml_kbd_phone.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml\\kbd_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en_sym_keyboard_feedback_delete.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable-en\\sym_keyboard_feedback_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num5.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num5.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_space.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_space.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key_normal_on.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key_normal_on.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_bubble_step07.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\dialog_bubble_step07.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_numalt.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_numalt.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keyboard_key_feedback_background.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\keyboard_key_feedback_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\xml-fr_kbd_qwerty.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\xml-fr\\kbd_qwerty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num8.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num8.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_feedback_done.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_feedback_done.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\layout_candidate_preview.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\layout\\candidate_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key_normal.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_bubble_step02.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\dialog_bubble_step02.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\layout_input.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\layout\\input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keyboard_key_feedback.xml.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\keyboard_key_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym_keyboard_num1.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\sym_keyboard_num1.png"
+    },
+    {
+        "merged": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_keyboard_key_pressed_off.9.png.flat",
+        "source": "C:\\Users\\Gwang\\Desktop\\Hackerton\\HangulKeyboard1\\app\\src\\main\\res\\drawable\\btn_keyboard_key_pressed_off.9.png"
+    }
+]
