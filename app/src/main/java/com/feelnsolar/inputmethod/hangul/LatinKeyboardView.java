@@ -96,6 +96,8 @@ public class LatinKeyboardView extends KeyboardView {
     @Override
     public void setKeyboard(Keyboard k) {
         super.setKeyboard(k);
+     //   super.setPreviewEnabled(false);
+        /**@TODO 여기다가 프리뷰를 일부만 되도록 만들어야한다*/
         if (DEBUG_AUTO_PLAY) {
             findKeys();
             if (mHandler2 == null) {

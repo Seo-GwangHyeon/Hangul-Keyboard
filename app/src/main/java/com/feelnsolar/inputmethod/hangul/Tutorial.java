@@ -45,7 +45,7 @@ public class Tutorial implements OnTouchListener {
     private SoftKeyboard mIme;
     private int[] mLocation = new int[2];
     private int mBubblePointerOffset;
-    
+    private Bubble bubba;
     private static final int MSG_SHOW_BUBBLE = 0;
     
     private int mBubbleIndex;
@@ -55,8 +55,8 @@ public class Tutorial implements OnTouchListener {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case MSG_SHOW_BUBBLE:
-                    Bubble bubba = (Bubble) msg.obj;
-                    bubba.show(mLocation[0], mLocation[1]);
+                    bubba = (Bubble) msg.obj;
+                   bubba.show(mLocation[0], mLocation[1]);
                     break;
             }
         }
@@ -135,8 +135,10 @@ public class Tutorial implements OnTouchListener {
             if (inputView.getVisibility() == View.VISIBLE 
                     && inputView.getWindowVisibility() == View.VISIBLE) {
                 try {
-                    if ((gravity & Gravity.BOTTOM) == Gravity.BOTTOM) offy -= window.getHeight();
-                    if ((gravity & Gravity.RIGHT) == Gravity.RIGHT) offx -= window.getWidth();
+                    if ((gravity & Gravity.BOTTOM) == Gravity.BOTTOM)
+                        offy -= window.getHeight();
+                    if ((gravity & Gravity.RIGHT) == Gravity.RIGHT)
+                        offx -= window.getWidth();
                     textView.setOnTouchListener(new View.OnTouchListener() {
                         public boolean onTouch(View view, MotionEvent me) {
                             Tutorial.this.next();
@@ -160,7 +162,7 @@ public class Tutorial implements OnTouchListener {
         boolean isShowing() {
             return window.isShowing();
         }
-    }
+    }//end bubble class
     
     public Tutorial(SoftKeyboard ime, LatinKeyboardView inputView) {
         Context context = inputView.getContext();
@@ -227,7 +229,7 @@ public class Tutorial implements OnTouchListener {
         mHandler.sendMessageDelayed(
                 mHandler.obtainMessage(MSG_SHOW_BUBBLE, mBubbles.get(mBubbleIndex)), 500);
         return true;
-    }
+    }//end next
     
     void hide() {
         for (int i = 0; i < mBubbles.size(); i++) {

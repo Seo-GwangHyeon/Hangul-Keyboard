@@ -25,8 +25,6 @@ application
 ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:8:5-23:19
 	android:label
 		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:8:18-58
-	android:debuggable
-		ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:9:7-32
 service#com.feelnsolar.inputmethod.hangul.SoftKeyboard
 ADDED from C:\Users\Gwang\Desktop\Hackerton\HangulKeyboard1\app\src\main\AndroidManifest.xml:10:9-16:19
 	android:permission

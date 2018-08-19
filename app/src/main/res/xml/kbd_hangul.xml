@@ -24,6 +24,8 @@
     android:keyHeight="@dimen/key_height"
     android:horizontalGap="0px"
     android:verticalGap="0px"
+
+
     tools:targetApi="cupcake">
 
     <Row>
@@ -88,8 +90,8 @@
         <Key android:codes="12640" android:keyLabel="ㅠ"/>
         <Key android:codes="12636" android:keyLabel="ㅜ"/>
         <Key android:codes="12641" android:keyLabel="ㅡ"/>
-        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
-                android:keyWidth="15%p" android:keyEdgeFlags="right" 
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+                android:keyWidth="11%p" android:keyEdgeFlags="right"
                 android:iconPreview="@drawable/sym_keyboard_feedback_delete"
                 android:isRepeatable="true"/>
     </Row>
@@ -121,6 +123,7 @@
         <Key android:keyLabel="/" android:keyWidth="15%p"/>
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
                 android:iconPreview="@drawable/sym_keyboard_feedback_space"
+
                 android:keyWidth="15%p" android:isRepeatable="true"/>
         <Key android:keyLabel="." android:popupKeyboard="@xml/popup_punctuation" 
                 android:keyWidth="15%p"/>

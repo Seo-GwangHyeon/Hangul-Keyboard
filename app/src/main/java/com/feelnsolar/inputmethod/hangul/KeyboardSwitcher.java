@@ -16,8 +16,10 @@
 
 package com.feelnsolar.inputmethod.hangul;
 
+import android.graphics.Point;
 import android.inputmethodservice.Keyboard;
 import android.util.Log;
+import android.view.Display;
 
 import java.util.List;
 
@@ -88,6 +90,8 @@ public class KeyboardSwitcher {
         // If keyboards have already been made, check if we have a screen width change and 
         // create the keyboard layouts again at the correct orientation
         if (mKeyboards != null) {
+
+
             int displayWidth = mContext.getMaxWidth();
             if (displayWidth == mLastDisplayWidth) return;
             mLastDisplayWidth = displayWidth;

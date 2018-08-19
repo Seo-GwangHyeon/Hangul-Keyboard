@@ -104,6 +104,7 @@ public class UserDictionary extends Dictionary {
      * the highest.
      * @TODO use a higher or float range for frequency
      */
+    //@T
     public synchronized void addWord(String word, int frequency) {
         if (mRequiresReload) loadDictionary();
         // Safeguard against adding long words. Can cause stack overflow.
