@@ -8,7 +8,8 @@
 
     <application
         android:debuggable="true"
-        android:label="@string/english_ime_name" >
+        android:label="@string/english_ime_name"
+        android:testOnly="true" >
         <service
             android:name="com.feelnsolar.inputmethod.hangul.SoftKeyboard"
             android:permission="android.permission.BIND_INPUT_METHOD" >

