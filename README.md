@@ -1,9 +1,9 @@
 # hangulkeyboard
-I want to make hangulkeyboard in android. So, I found a open source but that project was older than 8 years. 
+I'd like to make hangulkeyboard in android. So, I found a open source but that project was older than 8 years. 
 
-So I want to update that project. 
+So I'd like to update that project. 
 
-Poblems
+Problems
 1) If I run this app, in the beginning it show weird keyboard by small size keys.
 But if I roate my phone to landscape and to original, the keyboard fit my screen.
 1) 앱을 키면, 초기에는 작은 크기의 이상한 키보드가 나온다. 
